@@ -16,13 +16,14 @@
     "enrichment_concurrency": 5
   },
   "email": {
-    "enabled": false,
-    "smtp_server": "smtp.qq.com",
+    "enabled": true,
+    "smtp_server": "smtp.163.com",
     "smtp_port": 465,
-    "imap_server": "imap.qq.com",
+    "imap_server": "imap.163.com",
     "imap_port": 993,
-    "email_address": "xxx@qq.com",
+    "email_address": "xilyfe@163.com",
     "sender_name": "Insight Daily",
+    "password_env": "EMAIL_PASSWORD",
     "subscribe_keyword": "SUBSCRIBE",
     "unsubscribe_keyword": "UNSUBSCRIBE"
   },
